@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Mood induction in MDD and healthy adolescents",
   "description": "This dataset contains magnetoencephalography (MEG) and structural magnetic resonance imaging (MRI) data from adolescent participants with major depressive disorder and healthy controls during a monetary gambling mood induction task and resting state. The study investigates electrophysiological correlates of mood and reward dynamics in human adolescents through pre-registered analyses of task-based and resting-state neuroimaging data.",
-  "methods_description": "MEG data were acquired during a monetary gambling mood induction task (task-mmi3) and a 10-minute resting state scan (task-rest) in the same session. Task-mmi3 data have been preprocessed with identification of bad channels and segments (motion >5mm and/or noise artifacts). Structural MRI scans were defaced with co-registered fiducial coordinates provided in anatomical JSON files.",
+  "methods_description": "MEG data were acquired during a monetary gambling mood induction task (task-mmi3) and a 10-minute resting state scan (task-rest) in the same session. Task-mmi3 data have been preprocessed with marking of bad channels and segments (motion >5mm and/or noise artifacts). Structural MRI scans were defaced with co-registered fiducial coordinates provided in anatomical JSON files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -37,6 +37,18 @@
     },
     {
       "term": "resting state"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "gambling task"
+    },
+    {
+      "term": "monetary reward"
+    },
+    {
+      "term": "pre-registered"
     }
   ],
   "related_identifiers": [
@@ -63,7 +75,7 @@
   ],
   "funding_references": [
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institute of Mental Health",
       "award_number": "ZIA-MH002957-01"
     }
   ],
