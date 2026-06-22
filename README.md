@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003568-blue)](https://doi.org/10.82901/nemar.on003568)
+
 This dataset contains the MEG and structural MRI data from the "Electrophysiological correlates of mood and reward dynamics in human adolescents" pre-registered analysis (https://www.biorxiv.org/content/10.1101/2021.03.04.433969v1).
   
 The task-mmi3 data corresponds to the monetary gambling mood induction task described in the paper. Task-mmi3 data has been pre-processed marking bad channels and bad segments (motion > 5mm or/and noise artifacts). 
