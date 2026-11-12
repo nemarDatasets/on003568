@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Mood induction in MDD and healthy adolescents",
-  "description": "MEG and structural MRI recordings from adolescents with major depressive disorder and healthy controls, collected for a pre-registered study of electrophysiological correlates of mood and reward dynamics. It includes a monetary gambling mood induction task (task-mmi3), pre-processed with bad channels and segments marked, and a 10-minute unprocessed resting-state scan from the same session. Anatomical MRIs are defaced and include co-registered fiducial coordinates.",
-  "methods_description": "MEG was acquired during a monetary gambling mood induction task and a 10-minute resting-state scan in the same session. Task data were pre-processed by marking bad channels and bad segments (motion >5 mm or noise artifacts). Structural MRIs were defaced and fiducial coordinates co-registered.",
+  "description": "This dataset contains magnetoencephalography (MEG) and structural MRI data from adolescents with major depressive disorder and healthy controls performing a monetary gambling mood induction task (task-mmi3), along with a 10-minute resting-state scan. It supports a pre-registered analysis of the electrophysiological correlates of mood and reward dynamics. Task data are pre-processed with bad channels and segments marked, and anatomical MRIs are defaced with co-registered fiducial coordinates.",
+  "methods_description": "MEG was recorded during a monetary gambling mood induction task and a 10-minute resting-state scan in the same session. Task data were annotated for bad channels and bad segments (motion > 5 mm or noise artifacts). Structural MRIs were defaced and fiducial coordinates co-registered.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,28 +19,21 @@
   },
   "keywords": [
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "Adolescent",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000293"
-    },
-    {
-      "term": "Depressive Disorder, Major"
-    },
-    {
-      "term": "Reward",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012201"
+      "term": "MEG"
     },
     {
       "term": "mood induction"
     },
     {
-      "term": "MEG"
+      "term": "reward"
+    },
+    {
+      "term": "adolescents"
+    },
+    {
+      "term": "Major Depressive Disorder",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003865"
     },
     {
       "term": "resting state"
@@ -55,22 +48,27 @@
     {
       "identifier": "10.1101/2021.03.04.433969",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds003568.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
+      "relation_type": "References"
     },
     {
       "identifier": "https://nemar.org/dataset/on003568",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003568.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1093/cercor/bhab417",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "National Institute of Mental Health, Intramural Research Program",
+      "funder_name": "National Institute of Mental Health Intramural Research Program, NIH",
       "award_number": "ZIA-MH002957-01"
     }
   ],
@@ -107,5 +105,5 @@
     ".xml",
     ".yml"
   ],
-  "source_hash": "9846708890abb35d31ebb0507ce4344cf83f6aa6021af6bfaa4ffef649a18d82"
+  "source_hash": "d7c8c9dfde857823063b089d95268b37ee5c501635fb3556ab105efd7b20415c"
 }
