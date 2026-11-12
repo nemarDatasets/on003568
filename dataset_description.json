@@ -11,22 +11,24 @@
   ],
   "BIDSVersion": "1.2.0",
   "DatasetDOI": "10.82901/nemar.on003568",
-  "Funding": [
-    "Intramural Research Program of the National Institute of Mental Health National Institutes of Health (NIH) (Grant No. ZIA-MH002957-01 [to AS])"
-  ],
-  "HowToAcknowledge": "Please cite: Lucrezia Liuzzi, Katharine Chang, Hanna Keren, Charles Zheng, Dipta Saha,Dylan Nielson and Argyris Stringaris, Electrophysiological correlates of mood and reward dynamics in human adolescents, BioRxiv 2021",
-  "License": "CC0",
-  "Name": "Mood induction in MDD and healthy adolescents",
-  "ReferencesAndLinks": [
-    "https://www.biorxiv.org/content/10.1101/2021.03.04.433969v1"
-  ],
   "EthicsApprovals": [
     "NIH Institutional Review Board"
   ],
+  "Funding": [
+    "Intramural Research Program of the National Institute of Mental Health National Institutes of Health (NIH) (Grant No. ZIA-MH002957-01 [to AS])"
+  ],
+  "HowToAcknowledge": "Please cite: Lucrezia Liuzzi, Katharine Chang, Charles Zheng, Hanna Keren, Dipta Saha, Dylan Nielson and Argyris Stringaris, Magnetoencephalographic Correlates of Mood and Reward Dynamics in Human Adolescents, Cerebral Cortex 2021",
+  "License": "CC0",
+  "Name": "Mood induction in MDD and healthy adolescents",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1093/cercor/bhab417"
+  ],
   "SourceDatasets": [
     {
-      "DOI": "10.18112/openneuro.ds003568.v1.0.2"
+      "DOI": "doi:10.18112/openneuro.ds003568.v1.0.4",
+      "URL": "https://openneuro.org/datasets/ds003568/versions/1.0.4",
+      "Version": "1.0.4"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "2.0.0"
 }
